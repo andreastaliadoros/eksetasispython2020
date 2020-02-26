@@ -3,7 +3,7 @@ grammi="b"
 i=0
 c1=0
 c2=0
-while line!="":
+while grammi!="":
 		grammi=f.readline().strip()
 		for i in range (len(grammi)):
 			if ((grammi[i]=="f") or (grammi[i]=="c") or (grammi[i]=="k") or (grammi[i]=="r")):
